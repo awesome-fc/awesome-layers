@@ -17,7 +17,7 @@
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
 |---------|------|------|--------|-----|-----|
 | Python310 | acs:fc:{region}:official:layers/Python310/versions/1 | [README.md](docs/Python310/README.md) | custom  | Python 3.10.5 | 函数计算官方公共层 |
-| Python310-Package-Collection | acs:fc:{region}:official:layers/Python310-Package-Collection/versions/1 | [README.md](docs/Python310-Package-Collection/README.md) | custom  | [requirements.txt](Python310-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python310一起使用｜
+| Python310-Package-Collection | acs:fc:{region}:official:layers/Python310-Package-Collection/versions/1 | [README.md](docs/Python310-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python310-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python310一起使用|
 
 ### 依赖库集合
 
