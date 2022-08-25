@@ -9,15 +9,17 @@
 
 ## 公共层
 公共层主要分为以下几类:
-- 运行时
-- 运行时依赖库集合
+- 运行时及其依赖库
+- 常用依赖库
 - 阿里云 SDK
 
-### 运行时
-| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 |
-|---------|------|------|--------|-----|
-| Python310 | acs:fc:{region}:official:layers/Python310/versions/1 | [README.md](docs/Python310/README.md) | custom   | Python 3.10.5 |
+### 运行时及其依赖库
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|-----|
+| Python310 | acs:fc:{region}:official:layers/Python310/versions/1 | [README.md](docs/Python310/README.md) | custom  | Python 3.10.5 | 函数计算官方公共层 |
+| Python310-Package-Collection | acs:fc:{region}:official:layers/Python310-Package-Collection/versions/1 | [README.md](docs/Python310-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python310-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python310一起使用|
 
+### 依赖库集合
 
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
