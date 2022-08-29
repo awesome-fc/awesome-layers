@@ -29,7 +29,7 @@
 ### 常用依赖库
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
 |---------|------|------|--------|-----|-----|
-
+| Python39-Pandas1x | acs:fc:{region}:official:layers/Python39-Pandas1x/versions/1 | [README.md](docs/Python39-Pandas1x/README.md) | python3.9,custom-runtime  | pandas-1.4.3 | 函数计算官方公共层 |
 
 ### 阿里云 SDK
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
