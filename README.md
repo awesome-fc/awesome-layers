@@ -32,6 +32,8 @@
 | Python39-Pandas1x | acs:fc:{region}:official:layers/Python39-Pandas1x/versions/1 | [README.md](docs/Python39-Pandas1x/README.md) | python3.9,custom-runtime  | pandas-1.4.3 | 函数计算官方公共层 |
 | Python39-SciPy1x | acs:fc:{region}:official:layers/Python39-SciPy1x/versions/1 | [README.md](docs/Python39-SciPy1x/README.md) | python3.9,custom-runtime  | scipy-1.9.0,numpy-1.23.2 | 函数计算官方公共层 |
 | Python36-SciPy1x | acs:fc:{region}:official:layers/Python36-SciPy1x/versions/1 | [README.md](docs/Python36-SciPy1x/README.md) | python3.6,custom-runtime  | scipy-1.5.4,numpy-1.19.5 | 函数计算官方公共层 |
+| Python36-PyTorch1x | acs:fc:{region}:official:layers/Python36-PyTorch1x/versions/1 | [README.md](docs/Python36-PyTorch1x/README.md) | python3.6,custom-runtime  | torch-1.10.2+cpu,torchvision-0.11.3+cpu,torchaudio-0.10.2+cpu | 函数计算官方公共层 |
+| Nodejs-Puppeteer10x | acs:fc:{region}:official:layers/Nodejs-Puppeteer10x/versions/1 | [README.md](docs/Nodejs-Puppeteer10x/README.md) | nodejs14,nodejs12,nodejs10,custom-runtime  | puppeteer-v10.2.0 | 函数计算官方公共层 |
 
 ### 阿里云 SDK
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
