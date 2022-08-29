@@ -26,7 +26,15 @@
 | Python36-Package-Collection | acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1 | [README.md](docs/Python36-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python36一起使用|
 | Dotnet6 | acs:fc:{region}:official:layers/Dotnet6/versions/1 | [README.md](docs/Dotnet6/README.md) | custom  | ASP.NET Core Runtime 6.0.5 | 函数计算官方公共层 |
 
-### 依赖库集合
+### 常用依赖库
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|-----|
+
+
+### 阿里云 SDK
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|-----|
+| Aliyun-DataX | acs:fc:{region}:official:layers/Aliyun-DataX/versions/1 | 阿里云 DataWorks数据集成的开源版本:[README.md](docs/Aliyun-DataX/README.md) | python2.7,python3.6,python3.9,custom-runtime  | datax_v202205 | 函数计算官方公共层 |
 
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
