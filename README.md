@@ -24,6 +24,7 @@
 | Python38-Package-Collection | acs:fc:{region}:official:layers/Python38-Package-Collection/versions/1 | [README.md](docs/Python38-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python38-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python38一起使用|
 | Python36 | acs:fc:{region}:official:layers/Python36/versions/1 | [README.md](docs/Python36/README.md) | custom  | Python 3.6.15 | 函数计算官方公共层 |
 | Python36-Package-Collection | acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1 | [README.md](docs/Python36-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python36一起使用|
+| Dotnet6 | acs:fc:{region}:official:layers/Dotnet6/versions/1 | [README.md](docs/Dotnet6/README.md) | custom  | ASP.NET Core Runtime 6.0.5 | 函数计算官方公共层 |
 
 ### 依赖库集合
 
