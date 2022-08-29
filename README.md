@@ -24,8 +24,21 @@
 | Python38-Package-Collection | acs:fc:{region}:official:layers/Python38-Package-Collection/versions/1 | [README.md](docs/Python38-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python38-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python38一起使用|
 | Python36 | acs:fc:{region}:official:layers/Python36/versions/1 | [README.md](docs/Python36/README.md) | custom  | Python 3.6.15 | 函数计算官方公共层 |
 | Python36-Package-Collection | acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1 | [README.md](docs/Python36-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python36一起使用|
+| Dotnet6 | acs:fc:{region}:official:layers/Dotnet6/versions/1 | [README.md](docs/Dotnet6/README.md) | custom  | ASP.NET Core Runtime 6.0.5 | 函数计算官方公共层 |
 
-### 依赖库集合
+### 常用依赖库
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|-----|
+| Python39-Pandas1x | acs:fc:{region}:official:layers/Python39-Pandas1x/versions/1 | [README.md](docs/Python39-Pandas1x/README.md) | python3.9,custom-runtime  | pandas-1.4.3 | 函数计算官方公共层 |
+| Python39-SciPy1x | acs:fc:{region}:official:layers/Python39-SciPy1x/versions/1 | [README.md](docs/Python39-SciPy1x/README.md) | python3.9,custom-runtime  | scipy-1.9.0,numpy-1.23.2 | 函数计算官方公共层 |
+| Python36-SciPy1x | acs:fc:{region}:official:layers/Python36-SciPy1x/versions/1 | [README.md](docs/Python36-SciPy1x/README.md) | python3.6,custom-runtime  | scipy-1.5.4,numpy-1.19.5 | 函数计算官方公共层 |
+| Python36-PyTorch1x | acs:fc:{region}:official:layers/Python36-PyTorch1x/versions/1 | [README.md](docs/Python36-PyTorch1x/README.md) | python3.6,custom-runtime  | torch-1.10.2+cpu,torchvision-0.11.3+cpu,torchaudio-0.10.2+cpu | 函数计算官方公共层 |
+| Nodejs-Puppeteer10x | acs:fc:{region}:official:layers/Nodejs-Puppeteer10x/versions/1 | [README.md](docs/Nodejs-Puppeteer10x/README.md) | nodejs14,nodejs12,nodejs10,custom-runtime  | puppeteer-v10.2.0 | 函数计算官方公共层 |
+
+### 阿里云 SDK
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|-----|
+| Aliyun-DataX | acs:fc:{region}:official:layers/Aliyun-DataX/versions/1 | 阿里云 DataWorks数据集成的开源版本:[README.md](docs/Aliyun-DataX/README.md) | python2.7,python3.6,python3.9,custom-runtime  | datax_v202205 | 函数计算官方公共层 |
 
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
