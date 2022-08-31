@@ -28,6 +28,8 @@
 | PHP81 | acs:fc:{region}:official:layers/PHP81/versions/2 | [README.md](docs/PHP81/README.md) | custom  | PHP 8.1.9 | 函数计算官方公共层 |
 | PHP80 | acs:fc:{region}:official:layers/PHP80/versions/2 | [README.md](docs/PHP80/README.md) | custom  | PHP 8.0.22 | 函数计算官方公共层 |
 | PHP72 | acs:fc:{region}:official:layers/PHP72/versions/2 | [README.md](docs/PHP72/README.md) | custom  | PHP 7.2.8  | 函数计算官方公共层 |
+| Java11 | acs:fc:{region}:official:layers/Java11/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 11.0.13  | 函数计算官方公共层 |
+| Java17 | acs:fc:{region}:official:layers/Java17/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 17.0.2  | 函数计算官方公共层 |
 
 
 ### 常用依赖库

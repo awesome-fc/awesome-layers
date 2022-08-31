@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/PHP80/versions/1` | custom-runtime   | PHP 8.0.22 |
+| `acs:fc:{region}:official:layers/PHP80/versions/2` | custom-runtime   | PHP 8.0.22 |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
