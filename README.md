@@ -30,8 +30,10 @@
 | PHP72 | acs:fc:{region}:official:layers/PHP72/versions/2 | [README.md](docs/PHP72/README.md) | custom  | PHP 7.2.8  | 函数计算官方公共层 |
 | Java11 | acs:fc:{region}:official:layers/Java11/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 11.0.13  | 函数计算官方公共层 |
 | Java17 | acs:fc:{region}:official:layers/Java17/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 17.0.2  | 函数计算官方公共层 |
-
-
+| Nodejs17 | acs:fc:{region}:official:layers/Nodejs17/versions/1 | [README.md](docs/Nodejs17/README.md) | custom  | Node.js 17.9.1  | 函数计算官方公共层 |
+| Nodejs16 | acs:fc:{region}:official:layers/Nodejs16/versions/1 | [README.md](docs/Nodejs16/README.md) | custom  | Node.js 16.17.0  | 函数计算官方公共层 |
+| Nodejs14 | acs:fc:{region}:official:layers/Nodejs14/versions/1 | [README.md](docs/Nodejs14/README.md) | custom  | Node.js 14.20.0  | 函数计算官方公共层 |
+| Nodejs12 | acs:fc:{region}:official:layers/Nodejs12/versions/1 | [README.md](docs/Nodejs12/README.md) | custom  | Node.js 12.22.12  | 函数计算官方公共层 |
 ### 常用依赖库
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
 |---------|------|------|--------|-----|-----|
