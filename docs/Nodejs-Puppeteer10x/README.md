@@ -8,7 +8,7 @@
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
 
-### 基于 Python Runtime 
+### 基于 Nodejs Runtime 
 若选择 Nodejs Runtime，添加该层后需要配置以下环境变量
 - `NODE_PATH: /opt/node_modules:/opt/nodejs/node_modules`
 - `LD_LIBRARY_PATH: /opt/lib/x86_64-linux-gnu:/opt/lib`
