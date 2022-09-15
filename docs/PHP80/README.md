@@ -10,10 +10,12 @@
 
 使用`PHP80`层时，需要配置相应的环境变量 (通过控制台创建会自动配置)。
 - `PATH` 环境变量需要添加 `/opt/php8.0/bin` 目录，注意需要加到`PATH`的最前面
+- `LD_LIBRARY_PATH` 环境变量需要添加 `/opt/php8.0/lib`目录
 
 示例如下：
 ```shell
 PATH=/opt/php8.0/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
+LD_LIBRARY_PATH: /code:/code/lib:/usr/local/lib:/opt/lib:/opt/php8.0/lib
 ```
 
 ## 应用示例

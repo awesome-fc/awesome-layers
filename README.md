@@ -25,9 +25,9 @@
 | Python36 | acs:fc:{region}:official:layers/Python36/versions/1 | [README.md](docs/Python36/README.md) | custom  | Python 3.6.15 | 函数计算官方公共层 |
 | Python36-Package-Collection | acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1 | [README.md](docs/Python36-Package-Collection/README.md) | custom  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算官方公共层，需要和层Python36一起使用|
 | Dotnet6 | acs:fc:{region}:official:layers/Dotnet6/versions/1 | [README.md](docs/Dotnet6/README.md) | custom  | ASP.NET Core Runtime 6.0.5 | 函数计算官方公共层 |
-| PHP81 | acs:fc:{region}:official:layers/PHP81/versions/2 | [README.md](docs/PHP81/README.md) | custom  | PHP 8.1.9 | 函数计算官方公共层 |
-| PHP80 | acs:fc:{region}:official:layers/PHP80/versions/2 | [README.md](docs/PHP80/README.md) | custom  | PHP 8.0.22 | 函数计算官方公共层 |
-| PHP72 | acs:fc:{region}:official:layers/PHP72/versions/2 | [README.md](docs/PHP72/README.md) | custom  | PHP 7.2.8  | 函数计算官方公共层 |
+| PHP81 | acs:fc:{region}:official:layers/PHP81/versions/3 | [README.md](docs/PHP81/README.md) | custom  | PHP 8.1.9 | 函数计算官方公共层 |
+| PHP80 | acs:fc:{region}:official:layers/PHP80/versions/3 | [README.md](docs/PHP80/README.md) | custom  | PHP 8.0.22 | 函数计算官方公共层 |
+| PHP72 | acs:fc:{region}:official:layers/PHP72/versions/3 | [README.md](docs/PHP72/README.md) | custom  | PHP 7.2.8  | 函数计算官方公共层 |
 | Java11 | acs:fc:{region}:official:layers/Java11/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 11.0.13  | 函数计算官方公共层 |
 | Java17 | acs:fc:{region}:official:layers/Java17/versions/1 | [README.md](docs/Java11/README.md) | custom  | openjdk 17.0.2  | 函数计算官方公共层 |
 | Nodejs17 | acs:fc:{region}:official:layers/Nodejs17/versions/1 | [README.md](docs/Nodejs17/README.md) | custom  | Node.js 17.9.1  | 函数计算官方公共层 |
