@@ -15,7 +15,7 @@
 示例如下：
 ```shell
 PATH=/opt/php8.0/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
-LD_LIBRARY_PATH: /code:/code/lib:/usr/local/lib:/opt/lib:/opt/php8.0/lib
+LD_LIBRARY_PATH=/code:/code/lib:/usr/local/lib:/opt/lib:/opt/php8.0/lib
 ```
 
 ## 应用示例
