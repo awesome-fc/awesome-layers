@@ -9,8 +9,8 @@
 
 ### 基于 Nodejs Runtime
 若选择 Nodejs Runtime，添加该层后需要配置以下环境变量
-- `NODE_PATH: /opt/node_modules:/opt/nodejs/node_modules`
-- `LD_LIBRARY_PATH: /opt/lib/x86_64-linux-gnu:/opt/lib`
+- `NODE_PATH=/opt/node_modules:/opt/nodejs/node_modules`
+- `LD_LIBRARY_PATH=/opt/lib/x86_64-linux-gnu:/opt/lib`
 
 ## License
 [Apache-2](https://github.com/puppeteer/puppeteer/blob/main/LICENSE)

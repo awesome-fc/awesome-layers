@@ -27,7 +27,7 @@
 
 示例如下：
 ```shell
-JAVA_HOME: /var/fc/lang/java8
+JAVA_HOME=/var/fc/lang/java8
 PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/var/fc/lang/java8/bin
 ```
 
