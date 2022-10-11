@@ -1,4 +1,8 @@
 
+## 2022-09-15 Version 4
+ARN: `acs:fc:{region}:official:layers/PHP81/versions/4`
+- enable php-fpm (/opt/php8.1/sbin/php-fpm)
+
 ## 2022-09-15 Version 3
 ARN: `acs:fc:{region}:official:layers/PHP81/versions/3`
 - add some extensions
