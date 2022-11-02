@@ -19,13 +19,13 @@
 ### 运行时及其依赖库
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 维护者 |
 |---------|------|------|--------|-----|-----|
-| Python310 | `acs:fc:{region}:official:layers/Python310/versions/1` | [README.md](docs/Python310/README.md) | `custom`  | Python 3.10.5 | 函数计算官方公共层 |
+| Python310 | `acs:fc:{region}:official:layers/Python310/versions/1` | [README.md](docs/Python310/README.md) | `custom`  | Python 3.10.5 | 函数计算 |
 | Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/1` | [README.md](docs/Python310-Package-Collection/README.md) | `custom`  | [requirements.txt](docs/Python310-Package-Collection/requirements.txt) | 函数计算|
-| Python39 | `acs:fc:{region}:official:layers/Python39/versions/1` | [README.md](docs/Python39/README.md) | `custom`  | Python 3.9.13 | 函数计算官方公共层 |
+| Python39 | `acs:fc:{region}:official:layers/Python39/versions/1` | [README.md](docs/Python39/README.md) | `custom`  | Python 3.9.13 | 函数计算 |
 | Python39-Package-Collection | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/1` | [README.md](docs/Python39-Package-Collection/README.md) | `custom`  | [requirements.txt](docs/Python39-Package-Collection/requirements.txt) | 函数计算|
-| Python38 | `acs:fc:{region}:official:layers/Python38/versions/1` | [README.md](docs/Python38/README.md) | `custom`  | Python 3.8.13 | 函数计算官方公共层 |
+| Python38 | `acs:fc:{region}:official:layers/Python38/versions/1` | [README.md](docs/Python38/README.md) | `custom`  | Python 3.8.13 | 函数计算 |
 | Python38-Package-Collection | `acs:fc:{region}:official:layers/Python38-Package-Collection/versions/1` | [README.md](docs/Python38-Package-Collection/README.md) | `custom`  | [requirements.txt](docs/Python38-Package-Collection/requirements.txt) | 函数计算|
-| Python36 | `acs:fc:{region}:official:layers/Python36/versions/1` | [README.md](docs/Python36/README.md) | `custom`  | Python 3.6.15 | 函数计算官方公共层 |
+| Python36 | `acs:fc:{region}:official:layers/Python36/versions/1` | [README.md](docs/Python36/README.md) | `custom`  | Python 3.6.15 | 函数计算 |
 | Python36-Package-Collection | `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1` | [README.md](docs/Python36-Package-Collection/README.md) | `custom`  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算|
 | Dotnet6 | `acs:fc:{region}:official:layers/Dotnet6/versions/1` | [README.md](docs/Dotnet6/README.md) | `custom`  | ASP.NET Core Runtime 6.0.5 | 函数计算 |
 | PHP81 | `acs:fc:{region}:official:layers/PHP81/versions/4` | [README.md](docs/PHP81/README.md) | `custom`  | PHP 8.1.9 | 函数计算 |
