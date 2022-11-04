@@ -45,8 +45,10 @@
 | Python36-SciPy1x | `acs:fc:{region}:official:layers/Python36-SciPy1x/versions/1` | [README.md](docs/Python36-SciPy1x/README.md) | `python3.6`</br>`custom`  | scipy-1.5.4</br>numpy-1.19.5 | 函数计算 |
 | Python39-PyTorch1x | `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/1` | [README.md](docs/Python39-PyTorch1x/README.md) | `python3.9`</br>`custom`  | torch-1.12.1+cpu</br>torchaudio-0.12.1+cpu</br>torchvision-0.13.1+cpu | 函数计算 |
 | Python36-PyTorch1x | `acs:fc:{region}:official:layers/Python36-PyTorch1x/versions/1` | [README.md](docs/Python36-PyTorch1x/README.md) | `python3.6`</br>`custom`  | torch-1.10.2+cpu</br>torchvision-0.11.3+cpu</br>torchaudio-0.10.2+cpu | 函数计算 |
+| Python3-Flask2x | `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1` | [README.md](docs/Python3-Flask2x/README.md) | `python3.9`</br>`custom`  | flask-2.2.2 | 函数计算 |
 | Nodejs-Puppeteer10x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer10x/versions/1` | [README.md](docs/Nodejs-Puppeteer10x/README.md) | `nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`custom`  | puppeteer-v10.2.0 | 函数计算 |
 | Python3-cx_Oracle8x | `acs:fc:{region}:1940309364339785:layers/Python3-cx_Oracle8x/versions/1` | [github.com/fanzhe/fc-layer/python3-cxOracle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-cxOracle/README.md)) | `python3.9`</br>`python3`</br>`custom`  | cx_Oracle-8.3 | [fanzhe/fc-layer](https://github.com/fanzhe328/fc-layer) |
+| PuppeteerLib | `acs:fc:{region}:1940309364339785:layers/PuppeteerLib/versions/1` | [github.com/fanzhe/fc-layer/puppeteer-lib](https://github.com/fanzhe328/fc-layer/blob/main/layers/PuppeteerLib/README.md)) | `custom`</br>`nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`nodejs8`  |  | [fanzhe/fc-layer](https://github.com/fanzhe328/fc-layer) |
 
 ### 阿里云 SDK
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
