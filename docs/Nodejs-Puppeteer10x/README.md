@@ -9,12 +9,16 @@
 可以通过控制台或者 Serverless Devs 工具引用该层。
 
 ### 基于 Nodejs Runtime 
-若选择 Nodejs Runtime，添加该层后需要配置以下环境变量
-- `NODE_PATH=/opt/node_modules:/opt/nodejs/node_modules`
-- `LD_LIBRARY_PATH=/opt/lib/x86_64-linux-gnu:/opt/lib`
+若选择 Nodejs Runtime，添加该层后可直接使用。
 
+> 如果环境变量中修改了 `NODE_PATH` 或 `LD_LIBRARY_PATH`，需要添加以下路径
+> - `NODE_PATH=/opt/node_modules:/opt/nodejs/node_modules`
+> - `LD_LIBRARY_PATH=/opt/lib`
 ### 基于 Custom Runtime
-待补充
+
+添加以下两个环境变量
+- `NODE_PATH=/opt/node_modules:/opt/nodejs/node_modules`
+- `LD_LIBRARY_PATH=/opt/lib`
 
 ## License
 [Apache-2](https://github.com/puppeteer/puppeteer/blob/main/LICENSE)
