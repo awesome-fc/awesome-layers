@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1` | custom,python3.9   | flask 2.2.2|
+| `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1` | `custom`,`python3.9`  | flask-2.2.2|
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
