@@ -48,8 +48,19 @@
 | Python3-Flask2x | `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1` | [README.md](docs/Python3-Flask2x/README.md) | `python3.9`</br>`custom`  | flask-2.2.2 | 函数计算 |
 | Nodejs-Puppeteer17x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer17x/versions/2` | [README.md](docs/Nodejs-Puppeteer17x/README.md) | `nodejs16`</br>`nodejs14`</br>`custom`  | puppeteer-v17.1.0 | 函数计算 |
 | Nodejs-Puppeteer10x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer10x/versions/2` | [README.md](docs/Nodejs-Puppeteer10x/README.md) | `nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`custom`  | puppeteer-v10.2.0 | 函数计算 |
-| Python3-cx_Oracle8x | `acs:fc:{region}:1940309364339785:layers/Python3-cx_Oracle8x/versions/1` | [github.com/fanzhe/fc-layer/python3-cxOracle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-cxOracle/README.md)) | `python3.9`</br>`python3`</br>`custom`  | cx_Oracle-8.3 | [fanzhe/fc-layer](https://github.com/fanzhe328/fc-layer) |
-| PuppeteerLib | `acs:fc:{region}:1940309364339785:layers/PuppeteerLib/versions/1` | [github.com/fanzhe/fc-layer/puppeteer-lib](https://github.com/fanzhe328/fc-layer/blob/main/layers/PuppeteerLib/README.md)) | `custom`</br>`nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`nodejs8`  |  | [fanzhe/fc-layer](https://github.com/fanzhe328/fc-layer) |
+| Python3-cx_Oracle8x | `acs:fc:{region}:1940309364339785:layers/Python3-cx_Oracle8x/versions/1` | [github.com/fanzhe/fc-layer/python3-cxOracle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-cxOracle/README.md)) | `python3.9`</br>`python3`</br>`custom`  | cx_Oracle-8.3 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| PuppeteerLib | `acs:fc:{region}:1940309364339785:layers/PuppeteerLib/versions/1` | [github.com/fanzhe/fc-layer/puppeteer-lib](https://github.com/fanzhe328/fc-layer/blob/main/layers/PuppeteerLib/README.md)) | `custom`</br>`nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`nodejs8`  |  | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+
+#### Web 框架
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 维护者 |
+|---------|------|------|--------|-----| ------------ |
+| Python3-Flask2x | `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1` | [README.md](docs/Python3-Flask2x/README.md) | `custom`,`python3.9` | flask-2.2.2 | 函数计算 |
+| Python3-Bottle | `acs:fc:{region}:1940309364339785:layers/Python3-Bottle/versions/1` | [github.com/fanzhe/fc-layer/python3-bottle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-bottle/README.md)) | `custom` | bottle-0.12.23 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| Python3-Django4x | `acs:fc:{region}:1940309364339785:layers/Python3-Django4x/versions/1` | [github.com/fanzhe/fc-layer/python3-Django4x](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-Django4x/README.md)) | `custom` | Django-4.1.3 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| Python3-FastAPI | `acs:fc:{region}:1940309364339785:layers/Python3-FastAPI/versions/1` | [github.com/fanzhe/fc-layer/python3-fastapi](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-fastapi/README.md)) | `custom` | FastAPI-0.86.0 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| Python3-Pyramid2x | `acs:fc:{region}:1940309364339785:layers/Python3-Pyramid2x/versions/1` | [github.com/fanzhe/fc-layer/python3-pyramid](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-pyramid/README.md)) | `custom` | Pyramid-2.0 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| Python3-Tornado6x | `acs:fc:{region}:1940309364339785:layers/Python3-Tornado6x/versions/1` | [github.com/fanzhe/fc-layer/python3-tornado6x](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-tornado6x/README.md)) | `custom` | tornado-6.2 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| Python3-WebPy | `acs:fc:{region}:1940309364339785:layers/Python3-WebPy/versions/1` | [github.com/fanzhe/fc-layer/python3-webpy](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-webpy/README.md)) | `custom` | web.py-0.62 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 
 ### 阿里云 SDK
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
