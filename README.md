@@ -66,8 +66,9 @@
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
 |---------|------|------|--------|-----|---------- |
 | Aliyun-DataX | `acs:fc:{region}:official:layers/Aliyun-DataX/versions/1` | 阿里云 DataWorks数据集成的开源版本:[README.md](docs/Aliyun-DataX/README.md) | `python2.7`</br>`python3.6`</br>`python3.9`</br>`custom`  | datax_v202205 | 函数计算 |
-| Python39-Aliyun-SDK | `acs:fc:{region}:official:layers/Python39-Aliyun-SDK/versions/1` | 阿里云常用SDK | `python3.9`</br>`custom`  | | 函数计算 |
-| Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/1` | 阿里云常用SDK | `python3.6`</br>`custom`  | | 函数计算 |
+| Python39-Aliyun-SDK | `acs:fc:{region}:official:layers/Python39-Aliyun-SDK/versions/1` | 阿里云常用 SDK (Python3.9) | `python3.9`</br>`custom`  | | 函数计算 |
+| Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/1` | 阿里云常用SDK (Python3.6) | `python3.6`</br>`custom`  | | 函数计算 |
+| Nodejs-Aliyun-SDK | `acs:fc:{region}:official:layers/Nodejs-Aliyun-SDK/versions/1` | 阿里云常用SDK (Nodejs16/Nodejs14/Nodejs12) | `nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`custom`  | | 函数计算 |
 
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
