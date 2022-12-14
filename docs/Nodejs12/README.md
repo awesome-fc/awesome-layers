@@ -9,7 +9,7 @@
 可以通过控制台或者 Serverless Devs 工具引用该层。
 
 使用`Nodejs14`层时，需要配置相应的环境变量 (通过控制台创建会自动配置)。
-- `PATH` 环境变量需要添加 `/opt/nodejs14/bin` 目录，注意需要加到`PATH`的最前面
+- `PATH` 环境变量需要添加 `/opt/nodejs12/bin` 目录，注意需要加到`PATH`的最前面
 
 示例如下：
 ```shell
