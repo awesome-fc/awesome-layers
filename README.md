@@ -17,26 +17,27 @@
 > 维护者不是`函数计算`的层，需要通过`层ARN`的方式添加。
 
 ### 运行时及其依赖库
-| 层名称  | ARN  | 说明                                                       | 兼容运行时  | 版本 | 维护者 |
-|---------|------|----------------------------------------------------------|--------|-----|-----|
-| Python310 | `acs:fc:{region}:official:layers/Python310/versions/1` | [README.md](docs/Python310/README.md)                    | `custom`  | Python 3.10.5 | 函数计算 |
+| 层名称                          | ARN                                                                       | 说明                                                       | 兼容运行时  | 版本                                                                     | 维护者 |
+|------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------|--------|------------------------------------------------------------------------|-----|
+| Python310                    | `acs:fc:{region}:official:layers/Python310/versions/1`                    | [README.md](docs/Python310/README.md)                    | `custom`  | Python 3.10.5                                                          | 函数计算 |
 | Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/1` | [README.md](docs/Python310-Package-Collection/README.md) | `custom`  | [requirements.txt](docs/Python310-Package-Collection/requirements.txt) | 函数计算|
-| Python39 | `acs:fc:{region}:official:layers/Python39/versions/1` | [README.md](docs/Python39/README.md)                     | `custom`  | Python 3.9.13 | 函数计算 |
-| Python39-Package-Collection | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/1` | [README.md](docs/Python39-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python39-Package-Collection/requirements.txt) | 函数计算|
-| Python38 | `acs:fc:{region}:official:layers/Python38/versions/1` | [README.md](docs/Python38/README.md)                     | `custom`  | Python 3.8.13 | 函数计算 |
-| Python38-Package-Collection | `acs:fc:{region}:official:layers/Python38-Package-Collection/versions/1` | [README.md](docs/Python38-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python38-Package-Collection/requirements.txt) | 函数计算|
-| Python36 | `acs:fc:{region}:official:layers/Python36/versions/1` | [README.md](docs/Python36/README.md)                     | `custom`  | Python 3.6.15 | 函数计算 |
-| Python36-Package-Collection | `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1` | [README.md](docs/Python36-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt) | 函数计算|
-| Dotnet6 | `acs:fc:{region}:official:layers/Dotnet6/versions/1` | [README.md](docs/Dotnet6/README.md)                      | `custom`  | ASP.NET Core Runtime 6.0.5 | 函数计算 |
-| PHP81 | `acs:fc:{region}:official:layers/PHP81/versions/4` | [README.md](docs/PHP81/README.md)                        | `custom`  | PHP 8.1.9 | 函数计算 |
-| PHP80 | `acs:fc:{region}:official:layers/PHP80/versions/4` | [README.md](docs/PHP80/README.md)                        | `custom`  | PHP 8.0.22 | 函数计算 |
-| PHP72 | `acs:fc:{region}:official:layers/PHP72/versions/3` | [README.md](docs/PHP72/README.md)                        | `custom`  | PHP 7.2.8  | 函数计算 |
-| Java11 | `acs:fc:{region}:official:layers/Java11/versions/1` | [README.md](docs/Java11/README.md)                       | `custom`  | openjdk 11.0.13  | 函数计算 |
-| Java17 | `acs:fc:{region}:official:layers/Java17/versions/1` | [README.md](docs/Java17/README.md)                       | `custom`  | openjdk 17.0.2  | 函数计算 |
-| Nodejs17 | `acs:fc:{region}:official:layers/Nodejs17/versions/1` | [README.md](docs/Nodejs17/README.md)                     | `custom`  | Node.js 17.9.1  | 函数计算 |
-| Nodejs16 | `acs:fc:{region}:official:layers/Nodejs16/versions/1` | [README.md](docs/Nodejs16/README.md)                     | `custom`  | Node.js 16.17.0  | 函数计算 |
-| Nodejs14 | `acs:fc:{region}:official:layers/Nodejs14/versions/1` | [README.md](docs/Nodejs14/README.md)                     | `custom`  | Node.js 14.20.0  | 函数计算 |
-| Nodejs12 | `acs:fc:{region}:official:layers/Nodejs12/versions/1` | [README.md](docs/Nodejs12/README.md)                     | `custom`  | Node.js 12.22.12  | 函数计算 |
+| Python39                     | `acs:fc:{region}:official:layers/Python39/versions/1`                     | [README.md](docs/Python39/README.md)                     | `custom`  | Python 3.9.13                                                          | 函数计算 |
+| Python39-Package-Collection  | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/1`  | [README.md](docs/Python39-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python39-Package-Collection/requirements.txt)  | 函数计算|
+| Python38                     | `acs:fc:{region}:official:layers/Python38/versions/1`                     | [README.md](docs/Python38/README.md)                     | `custom`  | Python 3.8.13                                                          | 函数计算 |
+| Python38-Package-Collection  | `acs:fc:{region}:official:layers/Python38-Package-Collection/versions/1`  | [README.md](docs/Python38-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python38-Package-Collection/requirements.txt)  | 函数计算|
+| Python36                     | `acs:fc:{region}:official:layers/Python36/versions/1`                     | [README.md](docs/Python36/README.md)                     | `custom`  | Python 3.6.15                                                          | 函数计算 |
+| Python36-Package-Collection  | `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1`  | [README.md](docs/Python36-Package-Collection/README.md)  | `custom`  | [requirements.txt](docs/Python36-Package-Collection/requirements.txt)  | 函数计算|
+| Dotnet6                      | `acs:fc:{region}:official:layers/Dotnet6/versions/1`                      | [README.md](docs/Dotnet6/README.md)                      | `custom`  | ASP.NET Core Runtime 6.0.5                                             | 函数计算 |
+| PHP81                        | `acs:fc:{region}:official:layers/PHP81/versions/4`                        | [README.md](docs/PHP81/README.md)                        | `custom`  | PHP 8.1.9                                                              | 函数计算 |
+| PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/4`                        | [README.md](docs/PHP80/README.md)                        | `custom`  | PHP 8.0.22                                                             | 函数计算 |
+| PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/3`                        | [README.md](docs/PHP72/README.md)                        | `custom`  | PHP 7.2.8                                                              | 函数计算 |
+| Java11                       | `acs:fc:{region}:official:layers/Java11/versions/1`                       | [README.md](docs/Java11/README.md)                       | `custom`  | openjdk 11.0.13                                                        | 函数计算 |
+| Java17                       | `acs:fc:{region}:official:layers/Java17/versions/1`                       | [README.md](docs/Java17/README.md)                       | `custom`  | openjdk 17.0.2                                                         | 函数计算 |
+| Nodejs17                     | `acs:fc:{region}:official:layers/Nodejs17/versions/1`                     | [README.md](docs/Nodejs17/README.md)                     | `custom`  | Node.js 17.9.1                                                         | 函数计算 |
+| Nodejs16                     | `acs:fc:{region}:official:layers/Nodejs16/versions/1`                     | [README.md](docs/Nodejs16/README.md)                     | `custom`  | Node.js 16.17.0                                                        | 函数计算 |
+| Nodejs14                     | `acs:fc:{region}:official:layers/Nodejs14/versions/1`                     | [README.md](docs/Nodejs14/README.md)                     | `custom`  | Node.js 14.20.0                                                        | 函数计算 |
+| Nodejs12                     | `acs:fc:{region}:official:layers/Nodejs12/versions/1`                     | [README.md](docs/Nodejs12/README.md)                     | `custom`  | Node.js 12.22.12                                                       | 函数计算 |
+| Go118                        | `acs:fc:{region}:official:layers/Go118/versions/1`                        | [README.md](docs/Go118/README.md)                        | `custom`  | Go 1.18.8                                                              | 函数计算 |
 ### 常用依赖库
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 维护者 |
 |---------|------|------|--------|-----| ------------ |
