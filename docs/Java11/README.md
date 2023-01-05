@@ -10,10 +10,12 @@
 
 使用`Java11`层时，需要配置相应的环境变量 (通过控制台创建会自动配置)。
 - `PATH` 环境变量需要添加 `/opt/java11/bin` 目录，注意需要加到`PATH`的最前面
+- 建议添加 `JAVA_HOME=/opt/java11` 环境变量
 
 示例如下：
 ```shell
 PATH=/opt/java11/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
+JAVA_HOME=/opt/java11
 ```
 
 ## 应用示例
