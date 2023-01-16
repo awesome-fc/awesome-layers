@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python39-SciPy1x/versions/1` | custom-runtime   | scipy-1.9.0,numpy-1.23.2 |
+| `acs:fc:{region}:official:layers/Python39-SciPy1x/versions/2` | custom-runtime   | scipy-1.9.0,numpy-1.23.2 |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。

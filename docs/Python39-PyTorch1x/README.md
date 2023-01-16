@@ -3,7 +3,8 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/1` | python3.9, custom-runtime   | torch==1.12.1+cpu,torchaudio==0.12.1+cpu,torchvision==0.13.1+cpu |
+| `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/2` | `python3.9`, `custom`, `custom.debian10`  | torch==1.12.1+cpu,torchaudio==0.12.1+cpu,torchvision==0.13.1+cpu |
+| `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/1` | `python3.9`, `custom`  | torch==1.12.1+cpu,torchaudio==0.12.1+cpu,torchvision==0.13.1+cpu |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。

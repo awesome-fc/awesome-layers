@@ -3,7 +3,8 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Aliyun-DataX/versions/1` | python2.7,python3.6,python3.9,custom-runtime   | datax_v202205  |
+| `acs:fc:{region}:official:layers/Aliyun-DataX/versions/2` | `python2.7`,`python3.6`,`python3.9`,`python3.10`,`custom`,`custom.debian10`   | datax_v202210  |
+| `acs:fc:{region}:official:layers/Aliyun-DataX/versions/1` | `python2.7`,`python3.6`,`python3.9`,`custom`   | datax_v202205  |
 
 阿里云 DataWorks 数据集成的开源版本。
 源代码：[DataX](https://github.com/alibaba/DataX)
