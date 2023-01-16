@@ -3,6 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
+| `acs:fc:{region}:official:layers/Python38/versions/2` | `custom`,`custom.debian10`   | Python 3.8.13 |
 | `acs:fc:{region}:official:layers/Python38/versions/1` | custom-runtime   | Python 3.8.13 |
 
 该层基于 Python 官方 [Dockerfile](https://github.com/docker-library/python/blob/7b9d62e229bda6312b9f91b37ab83e33b4e34542/3.8/buster/Dockerfile) 制作。

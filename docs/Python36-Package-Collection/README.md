@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/1` | custom-runtime   | [requirements.txt](requirements.txt) |
+| `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/2` | custom-runtime   | [requirements.txt](requirements.txt) |
 
 该层基于 Python36 层制作。
 

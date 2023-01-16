@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python36-PyTorch1x/versions/1` | custom-runtime   | torch-1.10.2+cpu,torchvision-0.11.3+cpu,torchaudio-0.10.2+cpu |
+| `acs:fc:{region}:official:layers/Python36-PyTorch1x/versions/2` | custom-runtime   | torch-1.10.2+cpu,torchvision-0.11.3+cpu,torchaudio-0.10.2+cpu |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。

@@ -1,4 +1,8 @@
 
+## 2023-01-10 Version 2
+ARN: `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/2`
+- support runtime `custom.debian10`
+
 ## 2022-09-05 Version 1
 ARN: `acs:fc:{region}:official:layers/Python39-PyTorch1x/versions/1`
 

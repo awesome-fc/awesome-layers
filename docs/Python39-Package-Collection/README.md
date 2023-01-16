@@ -3,6 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
+| `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/2` | `custom`,`custom.debian10`   | [requirements.txt](requirements.txt) |
 | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/1` | custom-runtime   | [requirements.txt](requirements.txt) |
 
 该层基于 Python39 层制作。

@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/1` | `python3`, `custom`   | [requirements.txt](./requirements.txt) |
+| `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/2` | `python3`, `custom`   | [requirements.txt](./requirements.txt) |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
