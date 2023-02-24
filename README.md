@@ -74,5 +74,12 @@
 | Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/2` | 阿里云常用SDK (Python3.6) | `python3.6`</br>`custom`  | | 函数计算 |
 | Nodejs-Aliyun-SDK | `acs:fc:{region}:official:layers/Nodejs-Aliyun-SDK/versions/2` | 阿里云常用SDK (Nodejs16/Nodejs14/Nodejs12) | `nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`custom`</br>`custom.debian10`  | | 函数计算 |
 
+
+### 运行时扩展
+| 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
+|---------|------|------|--------|-----|---------- |
+| ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1` | 阿里云应用实时监控服务[ARMS](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | v2.7.3.5 | 函数计算 |
+| ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1` | 阿里云应用实时监控服务[ARMS](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | v2.7.3.5-jdk17 | 函数计算 |
+
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
