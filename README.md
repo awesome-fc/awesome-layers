@@ -80,6 +80,7 @@
 |---------|------|------|--------|-----|---------- |
 | ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1` | 阿里云应用实时监控服务[ARMS](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | v2.7.3.5 | 函数计算 |
 | ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1` | 阿里云应用实时监控服务[ARMS](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | v2.7.3.5-jdk17 | 函数计算 |
+| Loggie13x | `acs:fc:{region}:official:layers/Loggie13x/versions/1` | 云原生日志Agent[Loggie](https://loggie-io.github.io/docs/) | `custom`</br>`custom.debian10`  | v1.3.0 | 函数计算 |
 
 ## 参考
 - [Custom-Runtime 运行时官方文档](https://help.aliyun.com/document_detail/132042.html)
