@@ -54,7 +54,7 @@
 | Python3-cx_Oracle8x | `acs:fc:{region}:1940309364339785:layers/Python3-cx_Oracle8x/versions/1` | [github.com/fanzhe/fc-layer/python3-cxOracle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-cxOracle/README.md)) | `python3.9`</br>`python3`</br>`custom`  | cx_Oracle-8.3 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | PuppeteerLib | `acs:fc:{region}:1940309364339785:layers/PuppeteerLib/versions/1` | [github.com/fanzhe/fc-layer/puppeteer-lib](https://github.com/fanzhe328/fc-layer/blob/main/layers/PuppeteerLib/README.md)) | `custom`</br>`nodejs16`</br>`nodejs14`</br>`nodejs12`</br>`nodejs10`</br>`nodejs8`  |  | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python310-Opencv4x | `acs:fc:{region}:official:layers/Python310-Opencv4x/versions/2` | [README.md](docs/Python310-Opencv4x/README.md) | `python3.10`</br>`custom.debian10`  | opencv_python-4.7.0.68 | 函数计算 |
-| Sqlite3             | `acs:fc:{region}:official:layers/Sqlite3/versions/2`      | [README.md](docs/Sqlite3/README.md) | `custom`</br>`python3.9`</br>`nodejs14`</br>`nodejs16`</br>`java8`</br>`java11` | 3.41.1 |      函数计算      |
+| SQLite3             | `acs:fc:{region}:official:layers/SQLite3/versions/1`      | [README.md](docs/Sqlite3/README.md) | `custom`</br>`python3.9`</br>`nodejs14`</br>`nodejs16`</br>`java8`</br>`java11` | 3.41.1 |      函数计算      |
 
 #### Web 框架
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 维护者 |
