@@ -1,9 +1,9 @@
 
-# 【官方公共层】Sqlite3
+# 【官方公共层】SQLite3
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Sqlite3/versions/2` | `custom`,`python3.9`,`nodejs16`,`nodejs14`,`java11`,`java8`   |  3.41.1  |
+| `acs:fc:{region}:official:layers/SQLite3/versions/1` | `custom`,`python3.9`,`nodejs16`,`nodejs14`,`java11`,`java8`   |  3.41.1  |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
