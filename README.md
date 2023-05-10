@@ -70,6 +70,7 @@
 | Python3-Pyramid2x | `acs:fc:{region}:1940309364339785:layers/Python3-Pyramid2x/versions/1` | [github.com/fanzhe/fc-layer/python3-pyramid](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-pyramid/README.md)) | `custom` | Pyramid-2.0 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python3-Tornado6x | `acs:fc:{region}:1940309364339785:layers/Python3-Tornado6x/versions/1` | [github.com/fanzhe/fc-layer/python3-tornado6x](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-tornado6x/README.md)) | `custom` | tornado-6.2 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python3-WebPy | `acs:fc:{region}:1940309364339785:layers/Python3-WebPy/versions/1` | [github.com/fanzhe/fc-layer/python3-webpy](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-webpy/README.md)) | `custom` | web.py-0.62 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
+| ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/1` | [README.md](docs/ServerlessDevs/README.md) | `custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`  | 2.1.14 | 函数计算 |
 
 ### 阿里云 SDK
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 备注 |
