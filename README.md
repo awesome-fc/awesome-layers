@@ -65,7 +65,7 @@
 | Nodejs-Puppeteer19x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer19x/versions/1` | [README.md](docs/Nodejs-Puppeteer19x/README.md) | `custom.debian10`  | puppeteer-v19.8.5 | 函数计算 |
 | Python38-Playwright | `acs:fc:{region}:official:layers/Python38-Playwright/versions/1` | [README.md](docs/Python38-Playwright/README.md) | `custom.debian10`  | playwright-v1.31.1 | 函数计算 |
 | Poppler22x-Pdf2image | `acs:fc:{region}:official:layers/Poppler22x-Pdf2image/versions/1` | [README.md](docs/Poppler22x-Pdf2image/README.md) | `python3.10`  | pdf2image-1.16.3, poppler-22.12.0 | 函数计算 |
-| ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/1` | [README.md](docs/ServerlessDevs/README.md) | `custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`  | 2.1.14 | 函数计算 |
+| ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/2` | [README.md](docs/ServerlessDevs/README.md) | `custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`  | 3.0.0 | 函数计算 |
 
 #### Web 框架
 
