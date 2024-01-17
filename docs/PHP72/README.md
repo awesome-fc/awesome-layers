@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/PHP72/versions/5` | custom-runtime   | PHP 7.2.8 |
+| `acs:fc:{region}:official:layers/PHP72/versions/6` | custom-runtime   | PHP 7.2.8 |
 
 ## 快速开始
 

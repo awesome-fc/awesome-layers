@@ -1,4 +1,4 @@
-## 2024-01-16 Version 6
+## 2024-01-17 Version 7
 
 ARN: `acs:fc:{region}:official:layers/PHP80/versions/6`
 
