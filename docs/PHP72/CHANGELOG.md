@@ -1,4 +1,4 @@
-## 2024-01-16 Version 5
+## 2024-01-17 Version 6
 
 ARN: `acs:fc:{region}:official:layers/PHP72/versions/5`
 

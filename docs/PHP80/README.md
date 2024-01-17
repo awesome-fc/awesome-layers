@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/PHP80/versions/6` | custom-runtime   | PHP 8.0.22 |
+| `acs:fc:{region}:official:layers/PHP80/versions/7` | custom-runtime   | PHP 8.0.22 |
 
 ## 快速开始
 
