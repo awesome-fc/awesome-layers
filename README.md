@@ -50,6 +50,7 @@
 
 | 层名称  | ARN  | 说明 | 兼容运行时  | 版本 | 维护者 |
 |---------|------|------|--------|-----| ------------ |
+| Python310-PyTorch2x | `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1` | [README.md](docs/Python310-PyTorch2x/README.md) | `python3.10`</br>`custom.debian10`  | torch==2.2.1+cpu | 函数计算 |
 | Python39-Pandas1x | `acs:fc:{region}:official:layers/Python39-Pandas1x/versions/2` | [README.md](docs/Python39-Pandas1x/README.md) | `python3.9`</br>`custom`</br>`custom.debian10`  | pandas-1.4.3 | 函数计算 |
 | Python39-SciPy1x | `acs:fc:{region}:official:layers/Python39-SciPy1x/versions/2` | [README.md](docs/Python39-SciPy1x/README.md) | `python3.9`</br>`custom`  | scipy-1.9.0</br>numpy-1.23.2 | 函数计算 |
 | Python36-SciPy1x | `acs:fc:{region}:official:layers/Python36-SciPy1x/versions/4` | [README.md](docs/Python36-SciPy1x/README.md) | `python3.6`</br>`custom`  | scipy-1.5.4</br>numpy-1.19.5 | 函数计算 |
