@@ -54,7 +54,7 @@
 ### 常用依赖库
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
-|---------|------|------|-----| ------------ |
+|---------|------|------|-----|----------|
 | Python310-PyTorch2x | `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1`</br>[README.md](docs/Python310-PyTorch2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-Pandas1x | `acs:fc:{region}:official:layers/Python39-Pandas1x/versions/2`</br>[README.md](docs/Python39-Pandas1x/README.md) | `python3.9`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-SciPy1x | `acs:fc:{region}:official:layers/Python39-SciPy1x/versions/2`</br>[README.md](docs/Python39-SciPy1x/README.md) | `python3.9`</br>`custom`  | 暂无明确时间 | 函数计算 |
@@ -77,7 +77,7 @@
 #### Web 框架
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
-|---------|------|------|-----| ------------ |
+|---------|------|------|-----|---------|
 | Python3-Flask2x | `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1`</br>[README.md](docs/Python3-Flask2x/README.md) | `custom`,`python3.9` | 暂无明确时间 | 函数计算 |
 | Python3-Bottle | `acs:fc:{region}:1940309364339785:layers/Python3-Bottle/versions/1`</br>[github.com/fanzhe/fc-layer/python3-bottle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-bottle/README.md)) | `custom` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python3-Django4x | `acs:fc:{region}:1940309364339785:layers/Python3-Django4x/versions/1`</br>[github.com/fanzhe/fc-layer/python3-Django4x](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-Django4x/README.md)) | `custom` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
@@ -89,7 +89,7 @@
 ### 阿里云 SDK
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
-|---------|------|--------|-----|---------- |
+|---------|------|--------|-----|-------|
 | Aliyun-DataX | `acs:fc:{region}:official:layers/Aliyun-DataX/versions/2`</br>阿里云 DataWorks数据集成的开源版本(datax_v202210):[README.md](docs/Aliyun-DataX/README.md)  | `python2.7`</br>`python3.6`</br>`python3.9`</br>`python3.10`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-Aliyun-SDK | `acs:fc:{region}:official:layers/Python39-Aliyun-SDK/versions/2`</br>阿里云常用 SDK (Python3.9) | `python3.9`</br>`custom`  | 暂无明确时间 | 函数计算 |
 | Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/2`</br>阿里云常用SDK (Python3.6) | `python3.6`</br>`custom`  | 2024-04 | 函数计算 |
@@ -98,7 +98,7 @@
 ### 运行时扩展
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
-|---------|------|--------|-----|---------- |
+|---------|------|--------|-----|--------|
 | ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5-jdk17](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Loggie13x | `acs:fc:{region}:official:layers/Loggie13x/versions/1`</br>云原生日志Agent[Loggie](https://loggie-io.github.io/docs/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
