@@ -16,13 +16,13 @@
 - 常用依赖库
 - 阿里云 SDK
 
-> 维护者为`函数计算`的层，可以直接在函数计算控制台的`添加官方公共层`获取；
-> 维护者不是`函数计算`的层，需要通过`层ARN`的方式添加。
-> 官方公共层终止支持后，函数计算不再继续提供对该公共层的版本更新，已终止支持的公共层仍然可以继续使用。但建议您将函数迁移至最新支持的公共层，以便获得技术支持和安全更新。
+> 1. 维护者为`函数计算`的层，可以直接在函数计算控制台的`添加官方公共层`获取；维护者不是`函数计算`的层，需要通过`层ARN`的方式添加。
+> 
+> 2. 官方公共层终止支持后，函数计算不再继续提供对该公共层的版本更新，已终止支持的公共层仍然可以继续使用。但建议您将函数迁移至最新支持的公共层，以便获得技术支持和安全更新。
 
 ### 运行时及其依赖库
 
-> 以下公共层由阿里云函数计算维护。
+以下公共层由阿里云函数计算维护。
 
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
@@ -53,6 +53,8 @@
 
 ### 常用依赖库
 
+以下公共层由阿里云函数计算维护。
+
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|----------|
 | Python310-PyTorch2x | `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1`</br>[README.md](docs/Python310-PyTorch2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
@@ -73,6 +75,13 @@
 | Python38-Playwright | `acs:fc:{region}:official:layers/Python38-Playwright/versions/1`</br>[README.md](docs/Python38-Playwright/README.md) | `custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Poppler22x-Pdf2image | `acs:fc:{region}:official:layers/Poppler22x-Pdf2image/versions/1`</br>[README.md](docs/Poppler22x-Pdf2image/README.md) | `python3.10`  | 暂无明确时间 | 函数计算 |
 | ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/2`</br>[README.md](docs/ServerlessDevs/README.md) | `custom.debian10`</br>`python3.10`</br>`custom`</br>`python3.9`</br>`python3`</br>`nodejs16`</br>`nodejs14`</br>`java11`</br>`java8`</br>`go1`</br>`dotnetcore3.1`</br>`php7.2`</br> | 暂无明确时间 | 函数计算 |
+
+
+以下公共层由开发者维护。
+
+| 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
+|---------|------|------|-----|----------|
+| Python3x-PyMongo4x | `acs:fc:{region}:1730431480417716:layers/Python3x-PyMongo4x/versions/1`</br>版本: pymongo==4.6.1 | `custom.debian10`</br>`python3.10`</br>`python3.9` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 
 #### Web 框架
 
