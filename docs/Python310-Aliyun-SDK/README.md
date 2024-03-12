@@ -1,9 +1,9 @@
 
-# 【官方公共层】Python310-PyTorch2x
+# 【官方公共层】Python310-Aliyun-SDK
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1` | `python3.10`, `custom.debian10`   | torch==2.2.1+cpu |
+| `acs:fc:{region}:official:layers/【官方公共层】Python310-Aliyun-SDK/versions/1` | `python3.10`, `custom.debian10`   | [requirements.txt](./requirements.txt) |
 
 ## 快速开始
 
@@ -29,7 +29,7 @@ PATH=/var/fc/lang/python3.10/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/
 
 ## License
 
-[BSD](https://github.com/pytorch/pytorch/blob/master/LICENSE)
+无
 
 ## 参考信息
 
