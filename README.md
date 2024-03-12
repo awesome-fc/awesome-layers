@@ -17,7 +17,7 @@
 - 阿里云 SDK
 
 > 1. 维护者为`函数计算`的层，可以直接在函数计算控制台的`添加官方公共层`获取；维护者不是`函数计算`的层，需要通过`层ARN`的方式添加。
-> 
+>
 > 2. 官方公共层终止支持后，函数计算不再继续提供对该公共层的版本更新，已终止支持的公共层仍然可以继续使用。但建议您将函数迁移至最新支持的公共层，以便获得技术支持和安全更新。
 
 ### 运行时及其依赖库
@@ -27,9 +27,9 @@
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
 | Python310                    | `acs:fc:{region}:official:layers/Python310/versions/2`</br>[README.md](docs/Python310/README.md)     |  `custom`</br>`custom.debian10`  | 暂无明确时间 |
-| Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/2`</br>[README.md](docs/Python310-Package-Collection/README.md) | `custom`</br>`custom.debian10` | 暂无明确时间|
+| Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/3`</br>[README.md](docs/Python310-Package-Collection/README.md) | `custom.debian10` | 暂无明确时间|
 | Python39                     | `acs:fc:{region}:official:layers/Python39/versions/2`</br>[README.md](docs/Python39/README.md)                     | `custom`</br>`custom.debian10` | 暂无明确时间 |
-| Python39-Package-Collection  | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/2`</br>[README.md](docs/Python39-Package-Collection/README.md)  | `custom`</br>`custom.debian10` | 暂无明确时间|
+| Python39-Package-Collection  | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/3`</br>[README.md](docs/Python39-Package-Collection/README.md)  | `custom`</br>`custom.debian10` | 暂无明确时间|
 | Python38                     | `acs:fc:{region}:official:layers/Python38/versions/2`</br>[README.md](docs/Python38/README.md)                     | `custom`</br>`custom.debian10`  | 暂无明确时间 |
 | Python38-Package-Collection  | `acs:fc:{region}:official:layers/Python38-Package-Collection/versions/2`</br>[README.md](docs/Python38-Package-Collection/README.md)  | `custom`</br>`custom.debian10` | 暂无明确时间|
 | Python36                     | `acs:fc:{region}:official:layers/Python36/versions/2`</br>[README.md](docs/Python36/README.md)                     | `custom`  | 2024-04 |
@@ -49,14 +49,15 @@
 | Nodejs12                     | `acs:fc:{region}:official:layers/Nodejs12/versions/2`</br>[README.md](docs/Nodejs12/README.md)                     | `custom`   | 暂无明确时间 |
 | Go118                        | `acs:fc:{region}:official:layers/Go118/versions/1`</br>[README.md](docs/Go118/README.md)                        | `custom` | 暂无明确时间 |
 
-
-
 ### 常用依赖库
 
 以下公共层由阿里云函数计算维护。
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|----------|
+| Python310-TensorFlow2x | `acs:fc:{region}:official:layers/Python310-TensorFlow2x/versions/1`</br>[README.md](docs/Python310-TensorFlow2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| Python3x-PyMongo4x | `acs:fc:{region}:official:layers/Python3x-PyMongo4x/versions/1`</br>[README.md](docs/Python3x-PyMongo4x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| Python3x-Pandas2x | `acs:fc:{region}:official:layers/Python3x-Pandas2x/versions/1`</br>[README.md](docs/Python3x-Pandas2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python310-PyTorch2x | `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1`</br>[README.md](docs/Python310-PyTorch2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-Pandas1x | `acs:fc:{region}:official:layers/Python39-Pandas1x/versions/2`</br>[README.md](docs/Python39-Pandas1x/README.md) | `python3.9`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-SciPy1x | `acs:fc:{region}:official:layers/Python39-SciPy1x/versions/2`</br>[README.md](docs/Python39-SciPy1x/README.md) | `python3.9`</br>`custom`  | 暂无明确时间 | 函数计算 |
@@ -75,7 +76,6 @@
 | Python38-Playwright | `acs:fc:{region}:official:layers/Python38-Playwright/versions/1`</br>[README.md](docs/Python38-Playwright/README.md) | `custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Poppler22x-Pdf2image | `acs:fc:{region}:official:layers/Poppler22x-Pdf2image/versions/1`</br>[README.md](docs/Poppler22x-Pdf2image/README.md) | `python3.10`  | 暂无明确时间 | 函数计算 |
 | ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/2`</br>[README.md](docs/ServerlessDevs/README.md) | `custom.debian10`</br>`python3.10`</br>`custom`</br>`python3.9`</br>`python3`</br>`nodejs16`</br>`nodejs14`</br>`java11`</br>`java8`</br>`go1`</br>`dotnetcore3.1`</br>`php7.2`</br> | 暂无明确时间 | 函数计算 |
-
 
 以下公共层由开发者维护。
 
@@ -99,6 +99,7 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|--------|-----|-------|
+| Python310-Aliyun-SDK | `acs:fc:{region}:official:layers/Python310-Aliyun-SDK/versions/1`</br>阿里云常用 SDK (Python3.10) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Aliyun-DataX | `acs:fc:{region}:official:layers/Aliyun-DataX/versions/2`</br>阿里云 DataWorks数据集成的开源版本(datax_v202210):[README.md](docs/Aliyun-DataX/README.md)  | `python2.7`</br>`python3.6`</br>`python3.9`</br>`python3.10`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-Aliyun-SDK | `acs:fc:{region}:official:layers/Python39-Aliyun-SDK/versions/2`</br>阿里云常用 SDK (Python3.9) | `python3.9`</br>`custom`  | 暂无明确时间 | 函数计算 |
 | Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/2`</br>阿里云常用SDK (Python3.6) | `python3.6`</br>`custom`  | 2024-04 | 函数计算 |

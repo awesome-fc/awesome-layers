@@ -1,9 +1,9 @@
 
-# 【官方公共层】Python310-PyTorch2x
+# 【官方公共层】Python310-TensorFlow2x
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python310-PyTorch2x/versions/1` | `python3.10`, `custom.debian10`   | torch==2.2.1+cpu |
+| `acs:fc:{region}:official:layers/Python310-TensorFlow2x/versions/1` | `python3.10`, `custom.debian10`   | tensorflow==2.15.0.post1 |
 
 ## 快速开始
 
