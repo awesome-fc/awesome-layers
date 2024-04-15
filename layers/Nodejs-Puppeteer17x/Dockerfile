@@ -8,7 +8,7 @@ WORKDIR /tmp
 # install nodejs package
 COPY ./package.json /opt/nodejs/
 RUN cd /opt/nodejs \
-    && npm --registry https://registry.npm.taobao.org i
+    && npm --registry https://registry.npmmirror.com i
 
 # install shared libraries
 RUN mkdir -p /opt/lib /tmp/install
