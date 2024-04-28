@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/PHP80-Debian10/versions/1` | `custom.debian10`   | PHP 8.0.29 |
+| `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2` | `custom.debian10`   | PHP 8.0.29 |
 
 ## 快速开始
 
