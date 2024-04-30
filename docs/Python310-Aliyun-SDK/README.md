@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/【官方公共层】Python310-Aliyun-SDK/versions/1` | `python3.10`, `custom.debian10`   | [requirements.txt](./requirements.txt) |
+| `acs:fc:{region}:official:layers/Python310-Aliyun-SDK/versions/1` | `python3.10`, `custom.debian10`   | [requirements.txt](./requirements.txt) |
 
 ## 快速开始
 
