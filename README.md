@@ -26,6 +26,7 @@
 
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
+| PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | Nginx  | `acs:fc:{region}:official:layers/Nginx/versions/1`</br>[README.md](docs/Nginx/README.md) | `custom.debian10`  | 暂无明确时间 |
 | PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | Python310                    | `acs:fc:{region}:official:layers/Python310/versions/2`</br>[README.md](docs/Python310/README.md)     |  `custom`</br>`custom.debian10`  | 暂无明确时间 |
