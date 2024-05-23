@@ -58,6 +58,8 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|----------|
+| Python310-OSS2 | `acs:fc:{region}:official:layers/Python310-OSS2/versions/1`</br>[README.md](docs/Python310-OSS2/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| Python39-OSS2 | `acs:fc:{region}:official:layers/Python39-OSS2/versions/1`</br>[README.md](docs/Python39-OSS2/README.md) | `python3.9`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python310-TensorFlow2x | `acs:fc:{region}:official:layers/Python310-TensorFlow2x/versions/1`</br>[README.md](docs/Python310-TensorFlow2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python3x-PyMongo4x | `acs:fc:{region}:official:layers/Python3x-PyMongo4x/versions/1`</br>[README.md](docs/Python3x-PyMongo4x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python3x-Pandas2x | `acs:fc:{region}:official:layers/Python3x-Pandas2x/versions/1`</br>[README.md](docs/Python3x-Pandas2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |

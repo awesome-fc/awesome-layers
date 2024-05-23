@@ -1,0 +1,40 @@
+
+# 【官方公共层】Python39-OSS2
+
+| ARN  |  兼容运行时  | 版本 |
+|------|------|--------|
+| `acs:fc:{region}:official:layers/Python39-OSS2/versions/1` | `python3.9`, `custom.debian10`   |  |
+
+<https://github.com/aliyun/aliyun-oss-python-sdk>
+
+## 快速开始
+
+可以通过控制台或者 Serverless Devs 工具引用该层。
+
+### 基于 Python Runtime
+
+若选择 Python3.10 Runtime，添加该层后可直接引用
+
+### 基于 Custom Runtime (Debian10)
+
+使用该层时，需要使用Python39公共层
+
+并添加以下环境变量
+
+- `PYTHONPATH`环境变量需要添加 `/opt/python` 目录
+- `PATH` 环境变量需要添加 `/opt/python3.9/bin` 目录，注意需要加到`PATH`的最前面
+
+示例如下：
+
+```shell
+PYTHONPATH=/opt/python
+PATH=/opt/python3.9/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
+```
+
+## License
+
+[MIT](https://github.com/aliyun/aliyun-oss-python-sdk?tab=MIT-1-ov-file#readme)
+
+## 参考信息
+
+维护者：阿里云-函数计算
