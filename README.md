@@ -51,6 +51,7 @@
 | Nodejs16                     | `acs:fc:{region}:official:layers/Nodejs16/versions/2`</br>[README.md](docs/Nodejs16/README.md)                     | `custom`</br>`custom.debian10` | 暂无明确时间 |
 | Nodejs14                     | `acs:fc:{region}:official:layers/Nodejs14/versions/2`</br>[README.md](docs/Nodejs14/README.md)                     | `custom` | 暂无明确时间 |
 | Nodejs12                     | `acs:fc:{region}:official:layers/Nodejs12/versions/2`</br>[README.md](docs/Nodejs12/README.md)                     | `custom`   | 暂无明确时间 |
+| Go1                        | `acs:fc:{region}:official:layers/Go1/versions/1`</br>[README.md](docs/Go1/README.md)                        | `custom.debian10` | 暂无明确时间 |
 | Go118                        | `acs:fc:{region}:official:layers/Go118/versions/1`</br>[README.md](docs/Go118/README.md)                        | `custom` | 暂无明确时间 |
 
 ### 常用依赖库
