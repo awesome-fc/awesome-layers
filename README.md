@@ -37,7 +37,7 @@
 | Python38-Package-Collection  | `acs:fc:{region}:official:layers/Python38-Package-Collection/versions/2`</br>[README.md](docs/Python38-Package-Collection/README.md)  | `custom`</br>`custom.debian10` | 暂无明确时间|
 | Python36                     | `acs:fc:{region}:official:layers/Python36/versions/2`</br>[README.md](docs/Python36/README.md)                     | `custom`  | 2024-04 |
 | Python36-Package-Collection  | `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/2`</br>[README.md](docs/Python36-Package-Collection/README.md)  | `custom` | 2024-04 |
-| Dotnet6                      | `acs:fc:{region}:official:layers/Dotnet6/versions/2`</br>README.md](docs/Dotnet6/README.md)                      | `custom`  | 暂无明确时间 |
+| Dotnet6                      | `acs:fc:{region}:official:layers/Dotnet6/versions/3`</br>README.md](docs/Dotnet6/README.md)                      | `custom.debian10`,`custom`  | 暂无明确时间 |
 | PHP81                        | `acs:fc:{region}:official:layers/PHP81/versions/6`</br>[README.md](docs/PHP81/README.md)                        | `custom`  | 暂无明确时间 |
 | PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/7`</br>[README.md](docs/PHP80/README.md)                        | `custom`  | 暂无明确时间 |
 | PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/6`</br>[README.md](docs/PHP72/README.md)                        | `custom`  | 暂无明确时间 |
@@ -51,6 +51,7 @@
 | Nodejs16                     | `acs:fc:{region}:official:layers/Nodejs16/versions/2`</br>[README.md](docs/Nodejs16/README.md)                     | `custom`</br>`custom.debian10` | 暂无明确时间 |
 | Nodejs14                     | `acs:fc:{region}:official:layers/Nodejs14/versions/2`</br>[README.md](docs/Nodejs14/README.md)                     | `custom` | 暂无明确时间 |
 | Nodejs12                     | `acs:fc:{region}:official:layers/Nodejs12/versions/2`</br>[README.md](docs/Nodejs12/README.md)                     | `custom`   | 暂无明确时间 |
+| Go1                        | `acs:fc:{region}:official:layers/Go1/versions/1`</br>[README.md](docs/Go1/README.md)                        | `custom.debian10` | 暂无明确时间 |
 | Go118                        | `acs:fc:{region}:official:layers/Go118/versions/1`</br>[README.md](docs/Go118/README.md)                        | `custom` | 暂无明确时间 |
 
 ### 常用依赖库
