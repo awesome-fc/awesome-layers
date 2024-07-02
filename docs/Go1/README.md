@@ -3,7 +3,7 @@
 
 | ARN                                                |  兼容运行时  | 版本        |
 |----------------------------------------------------|------|-----------|
-| `acs:fc:{region}:official:layers/Go1/versions/1` | `go1`   | go 1.22.3 |
+| `acs:fc:{region}:official:layers/Go1/versions/1` | `custom.debian10`   | go 1.22.3 |
 
 ## 快速开始
 
