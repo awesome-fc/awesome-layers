@@ -42,8 +42,8 @@
 | PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/7`</br>[README.md](docs/PHP80/README.md)                        | `custom`  | 暂无明确时间 |
 | PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/6`</br>[README.md](docs/PHP72/README.md)                        | `custom`  | 暂无明确时间 |
 | Java8                       | `acs:fc:{region}:official:layers/Java8/versions/1`</br>[README.md](docs/Java8/README.md)                       | `custom.debian10`| 暂无明确时间 |
-| Java11                       | `acs:fc:{region}:official:layers/Java11/versions/2`</br>[README.md](docs/Java11/README.md)                       | `custom`| 暂无明确时间 |
-| Java17                       | `acs:fc:{region}:official:layers/Java17/versions/2`</br>[README.md](docs/Java17/README.md)                       | `custom`  | 暂无明确时间 |
+| Java11                       | `acs:fc:{region}:official:layers/Java11/versions/2`</br>[README.md](docs/Java11/README.md)                       | `custom.debian10`,`custom`| 暂无明确时间 |
+| Java17                       | `acs:fc:{region}:official:layers/Java17/versions/2`</br>[README.md](docs/Java17/README.md)                       | `custom.debian10`,`custom`  | 暂无明确时间 |
 | Java21                       | `acs:fc:{region}:official:layers/Java21/versions/1`</br>[README.md](docs/Java21/README.md)                       | `custom.debian10`| 暂无明确时间 |
 | Nodejs20                     | `acs:fc:{region}:official:layers/Nodejs20/versions/1`</br>[README.md](docs/Nodejs20/README.md)                     | `custom.debian10` | 暂无明确时间 |
 | Nodejs18                     | `acs:fc:{region}:official:layers/Nodejs18/versions/3`</br>[README.md](docs/Nodejs18/README.md)                     | `custom.debian10` | 暂无明确时间 |
