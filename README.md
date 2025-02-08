@@ -82,7 +82,7 @@
 | Nodejs-Puppeteer19x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer19x/versions/1`</br>[README.md](docs/Nodejs-Puppeteer19x/README.md) | `custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python38-Playwright | `acs:fc:{region}:official:layers/Python38-Playwright/versions/1`</br>[README.md](docs/Python38-Playwright/README.md) | `custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Poppler22x-Pdf2image | `acs:fc:{region}:official:layers/Poppler22x-Pdf2image/versions/1`</br>[README.md](docs/Poppler22x-Pdf2image/README.md) | `python3.10`  | 暂无明确时间 | 函数计算 |
-| ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/2`</br>[README.md](docs/ServerlessDevs/README.md) | `custom.debian10`</br>`python3.10`</br>`custom`</br>`python3.9`</br>`python3`</br>`nodejs16`</br>`nodejs14`</br>`java11`</br>`java8`</br>`go1`</br>`dotnetcore3.1`</br>`php7.2`</br> | 暂无明确时间 | 函数计算 |
+| ServerlessDevs | `acs:fc:{region}:official:layers/ServerlessDevs/versions/4`</br>[README.md](docs/ServerlessDevs/README.md) | `python3.12`</br>`custom.debian11`</br>`custom.debian10`</br>`python3.10`</br>`custom`</br>`python3.9`</br>`python3`</br>`nodejs16`</br>`nodejs14`</br>`java11`</br>`java8`</br>`go1`</br>`dotnetcore3.1`</br>`php7.2`</br> | 暂无明确时间 | 函数计算 |
 
 以下公共层由开发者维护。
 

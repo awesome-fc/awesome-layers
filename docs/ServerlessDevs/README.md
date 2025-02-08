@@ -5,6 +5,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
+| `acs:fc:{region}:official:layers/ServerlessDevs/versions/4` | `python3.12`,`custom.debian11`,`custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`   |  v3.1.3  |
 | `acs:fc:{region}:official:layers/ServerlessDevs/versions/2` | `custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`   |  v3.0.0  |
 | `acs:fc:{region}:official:layers/ServerlessDevs/versions/1` | `custom.debian10`,`python3.10`,`custom`,`python3.9`,`python3`,`nodejs16`,`nodejs14`,`java11`,`java8`,`go1`,`dotnetcore3.1`,`php7.2`   |  v2.1.14  |
 
