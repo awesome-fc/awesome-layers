@@ -2,7 +2,7 @@
 
 | ARN                                                              | 兼容运行时                    | 版本                |
 |------------------------------------------------------------------|--------------------------|-------------------|
-| `acs:fc:{region}:official:layers/Nodejs-Aliyun-SDK/versions/3` | `nodejs20`, `nodejs18`, `nodejs16`, `nodejs14`, `custom`, `custom.debian10` |  |
+| `acs:fc:{region}:official:layers/Nodejs-Aliyun-SDK/versions/4` | `nodejs20`, `nodejs18`, `nodejs16`, `nodejs14`, `custom`, `custom.debian10`,`custom.debian11` |  |
 
 ## 快速开始
 
