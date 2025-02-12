@@ -106,7 +106,7 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|--------|-----|-------|
-| Python310-Aliyun-SDK | `acs:fc:{region}:official:layers/Python310-Aliyun-SDK/versions/1`</br>阿里云常用 SDK (Python3.10) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| Python310-Aliyun-SDK | `acs:fc:{region}:official:layers/Python310-Aliyun-SDK/versions/2`</br>阿里云常用 SDK (Python3.10) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Aliyun-DataX | `acs:fc:{region}:official:layers/Aliyun-DataX/versions/2`</br>阿里云 DataWorks数据集成的开源版本(datax_v202210):[README.md](docs/Aliyun-DataX/README.md)  | `python2.7`</br>`python3.6`</br>`python3.9`</br>`python3.10`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-Aliyun-SDK | `acs:fc:{region}:official:layers/Python39-Aliyun-SDK/versions/2`</br>阿里云常用 SDK (Python3.9) | `python3.9`</br>`custom`  | 暂无明确时间 | 函数计算 |
 | Python36-Aliyun-SDK | `acs:fc:{region}:official:layers/Python36-Aliyun-SDK/versions/2`</br>阿里云常用SDK (Python3.6) | `python3.6`</br>`custom`  | 2024-04 | 函数计算 |
