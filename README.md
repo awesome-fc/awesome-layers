@@ -26,6 +26,7 @@
 
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
+| Python3.12                     | `acs:fc:{region}:official:layers/Python312/versions/1`</br>[README.md](docs/Python312/README.md)                     | `custom.debian12` | 暂无明确时间 |
 | Nodejs22                     | `acs:fc:{region}:official:layers/Nodejs22/versions/1`</br>[README.md](docs/Nodejs22/README.md)                     | `custom.debian12`、`custom.debian11` | 暂无明确时间 |
 | PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
