@@ -62,6 +62,7 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|----------|
+| Nodejs-Puppeteer24x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer24x/versions/1`</br>[README.md](docs/Nodejs-Puppeteer24x/README.md) | `custom.debian12`  | 暂无明确时间 | 函数计算 |
 | Python3-Flask3x | `acs:fc:{region}:official:layers/Python3-Flask3x/versions/2`</br>[README.md](docs/Python3-Flask3x/README.md) | `custom.debian12`</br>`custom.debian11`</br>`custom.debian10`</br>`python3.12` | 暂无明确时间 | 函数计算 |
 | Python3x-MCP | `acs:fc:{region}:official:layers/Python3x-MCP/versions/3`</br>[README.md](docs/Python3x-MCP/README.md) | `python3.12`</br>`custom.debian12`</br>...  | 暂无明确时间 | 函数计算 |
 | Python310-OSS2 | `acs:fc:{region}:official:layers/Python310-OSS2/versions/1`</br>[README.md](docs/Python310-OSS2/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
