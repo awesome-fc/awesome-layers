@@ -26,6 +26,8 @@
 
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
+| Python3.12                     | `acs:fc:{region}:official:layers/Python312/versions/1`</br>[README.md](docs/Python312/README.md)                     | `custom.debian12` | 暂无明确时间 |
+| Nodejs22                     | `acs:fc:{region}:official:layers/Nodejs22/versions/1`</br>[README.md](docs/Nodejs22/README.md)                     | `custom.debian12`、`custom.debian11` | 暂无明确时间 |
 | PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | Nginx  | `acs:fc:{region}:official:layers/Nginx/versions/1`</br>[README.md](docs/Nginx/README.md) | `custom.debian10`  | 暂无明确时间 |
@@ -60,6 +62,9 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|----------|
+| Nodejs-Puppeteer24x | `acs:fc:{region}:official:layers/Nodejs-Puppeteer24x/versions/1`</br>[README.md](docs/Nodejs-Puppeteer24x/README.md) | `custom.debian12`  | 暂无明确时间 | 函数计算 |
+| Python3-Flask3x | `acs:fc:{region}:official:layers/Python3-Flask3x/versions/2`</br>[README.md](docs/Python3-Flask3x/README.md) | `custom.debian12`</br>`custom.debian11`</br>`custom.debian10`</br>`python3.12` | 暂无明确时间 | 函数计算 |
+| Python3x-MCP | `acs:fc:{region}:official:layers/Python3x-MCP/versions/3`</br>[README.md](docs/Python3x-MCP/README.md) | `python3.12`</br>`custom.debian12`</br>...  | 暂无明确时间 | 函数计算 |
 | Python310-OSS2 | `acs:fc:{region}:official:layers/Python310-OSS2/versions/1`</br>[README.md](docs/Python310-OSS2/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python39-OSS2 | `acs:fc:{region}:official:layers/Python39-OSS2/versions/1`</br>[README.md](docs/Python39-OSS2/README.md) | `python3.9`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 | Python310-TensorFlow2x | `acs:fc:{region}:official:layers/Python310-TensorFlow2x/versions/1`</br>[README.md](docs/Python310-TensorFlow2x/README.md) | `python3.10`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
@@ -94,7 +99,6 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|------|-----|---------|
-| Python3-Flask2x | `acs:fc:{region}:official:layers/Python3-Flask2x/versions/1`</br>[README.md](docs/Python3-Flask2x/README.md) | `custom`,`python3.9` | 暂无明确时间 | 函数计算 |
 | Python3-Bottle | `acs:fc:{region}:1940309364339785:layers/Python3-Bottle/versions/1`</br>[github.com/fanzhe/fc-layer/python3-bottle](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-bottle/README.md)) | `custom` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python3-Django4x | `acs:fc:{region}:1940309364339785:layers/Python3-Django4x/versions/1`</br>[github.com/fanzhe/fc-layer/python3-Django4x](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-Django4x/README.md)) | `custom` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
 | Python3-FastAPI | `acs:fc:{region}:1940309364339785:layers/Python3-FastAPI/versions/1`</br>[github.com/fanzhe/fc-layer/python3-fastapi](https://github.com/fanzhe328/fc-layer/blob/main/layers/python3-fastapi/README.md)) | `custom` | 暂无明确时间 | [fanzhe](https://github.com/fanzhe328/fc-layer) |
@@ -116,8 +120,9 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|--------|-----|--------|
-| ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
-| ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5-jdk17](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| ArmsAgent4x | `acs:fc:{region}:official:layers/ArmsAgent4x/versions/1`</br>阿里云应用实时监控服务: [README.md](docs/ArmsAgent4x/README.md)| `java8`</br>`java11`</br>`custom`</br>`custom.debian10`</br>`custom.debian11`  | 暂无明确时间 | 函数计算 |
+| ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | 2024-04 | 函数计算 |
+| ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5-jdk17](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | 2024-04 | 函数计算 |
 | Loggie13x | `acs:fc:{region}:official:layers/Loggie13x/versions/1`</br>云原生日志Agent[Loggie](https://loggie-io.github.io/docs/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 
 ## 参考

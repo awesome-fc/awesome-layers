@@ -3,7 +3,7 @@
 
 | ARN                                                          | 兼容运行时                                       | 版本          |
 |--------------------------------------------------------------|---------------------------------------------|-------------|
-| `acs:fc:{region}:official:layers/Python3-Flask3x/versions/1` | `custom.debian11`,`custom.debian10`,`python3.12` | flask 3.0.3 |
+| `acs:fc:{region}:official:layers/Python3-Flask3x/versions/2` | `custom.debian12`,`custom.debian11`,`custom.debian10`,`python3.12` | flask 3.0.3 |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。
