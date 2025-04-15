@@ -120,8 +120,9 @@
 
 | 层名称  | ARN/说明 | 兼容运行时  | 终止支持时间(EOF) | 维护者 |
 |---------|------|--------|-----|--------|
-| ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
-| ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5-jdk17](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
+| ArmsAgent4x | `acs:fc:{region}:official:layers/ArmsAgent4x/versions/1`</br>阿里云应用实时监控服务: [README.md](docs/ArmsAgent4x/README.md)| `java8`</br>`java11`</br>`custom`</br>`custom.debian10`</br>`custom.debian11`  | 暂无明确时间 | 函数计算 |
+| ArmsAgent273x | `acs:fc:{region}:official:layers/ArmsAgent273x/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5](https://arms.console.aliyun.com/) | `java8`</br>`java11`</br>`custom`</br>`custom.debian10`  | 2024-04 | 函数计算 |
+| ArmsAgent273x_JDK17 | `acs:fc:{region}:official:layers/ArmsAgent273x_JDK17/versions/1`</br>阿里云应用实时监控服务[ARMS-v2.7.3.5-jdk17](https://arms.console.aliyun.com/) | `custom`</br>`custom.debian10`  | 2024-04 | 函数计算 |
 | Loggie13x | `acs:fc:{region}:official:layers/Loggie13x/versions/1`</br>云原生日志Agent[Loggie](https://loggie-io.github.io/docs/) | `custom`</br>`custom.debian10`  | 暂无明确时间 | 函数计算 |
 
 ## 参考
