@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Python310/versions/1` | custom-runtime   | Python 3.10.5 |
+| `acs:fc:{region}:official:layers/Python310/versions/3` | `custom`,`custom.debian10`,`custom.debian11`,`custom.debian12`   | Python 3.10.5 |
 
 该层基于 Python 官方 [Dockerfile](https://github.com/docker-library/python/blob/7b9d62e229bda6312b9f91b37ab83e33b4e34542/3.10/buster/Dockerfile) 制作。
 

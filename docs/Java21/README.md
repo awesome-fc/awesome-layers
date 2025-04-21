@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Java21/versions/1` | `custom.debian10`   | openjdk 21  |
+| `acs:fc:{region}:official:layers/Java21/versions/2` | `custom.debian10`,`custom.debian11`,`custom.debian12`   | openjdk 21  |
 
 ## 快速开始
 
