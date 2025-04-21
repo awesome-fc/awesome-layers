@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Java11/versions/2` | `custom`,`custom.debian10`   | openjdk 11.0.13 |
+| `acs:fc:{region}:official:layers/Java11/versions/3` | `custom`,`custom.debian10`,`custom.debian11`,`custom.debian12`   | openjdk 11.0.13 |
 
 ## 快速开始
 可以通过控制台或者 Serverless Devs 工具引用该层。

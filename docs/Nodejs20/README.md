@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Nodejs20/versions/1` | `custom.debian10`   | Node.js 20.11.0  |
+| `acs:fc:{region}:official:layers/Nodejs20/versions/3` | `custom.debian10`,`custom.debian11`,`custom.debian12`   | Node.js 20.11.0  |
 
 ## 快速开始
 

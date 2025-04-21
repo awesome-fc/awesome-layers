@@ -27,11 +27,11 @@
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
 | Python3.12                     | `acs:fc:{region}:official:layers/Python312/versions/1`</br>[README.md](docs/Python312/README.md)                     | `custom.debian12` | 暂无明确时间 |
-| Nodejs22                     | `acs:fc:{region}:official:layers/Nodejs22/versions/1`</br>[README.md](docs/Nodejs22/README.md)                     | `custom.debian12`、`custom.debian11` | 暂无明确时间 |
+| Nodejs22                     | `acs:fc:{region}:official:layers/Nodejs22/versions/2`</br>[README.md](docs/Nodejs22/README.md)                     | `custom.debian12`</br>`custom.debian11` | 暂无明确时间 |
 | PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
 | Nginx  | `acs:fc:{region}:official:layers/Nginx/versions/1`</br>[README.md](docs/Nginx/README.md) | `custom.debian10`  | 暂无明确时间 |
-| Python310                    | `acs:fc:{region}:official:layers/Python310/versions/2`</br>[README.md](docs/Python310/README.md)     |  `custom`</br>`custom.debian10`  | 暂无明确时间 |
+| Python310                    | `acs:fc:{region}:official:layers/Python310/versions/3`</br>[README.md](docs/Python310/README.md)     |  `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`  | 暂无明确时间 |
 | Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/3`</br>[README.md](docs/Python310-Package-Collection/README.md) | `custom.debian10` | 暂无明确时间|
 | Python39                     | `acs:fc:{region}:official:layers/Python39/versions/2`</br>[README.md](docs/Python39/README.md)                     | `custom`</br>`custom.debian10` | 暂无明确时间 |
 | Python39-Package-Collection  | `acs:fc:{region}:official:layers/Python39-Package-Collection/versions/3`</br>[README.md](docs/Python39-Package-Collection/README.md)  | `custom`</br>`custom.debian10` | 暂无明确时间|
@@ -44,10 +44,10 @@
 | PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/7`</br>[README.md](docs/PHP80/README.md)                        | `custom`  | 暂无明确时间 |
 | PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/6`</br>[README.md](docs/PHP72/README.md)                        | `custom`  | 暂无明确时间 |
 | Java8                       | `acs:fc:{region}:official:layers/Java8/versions/1`</br>[README.md](docs/Java8/README.md)                       | `custom.debian10`| 暂无明确时间 |
-| Java11                       | `acs:fc:{region}:official:layers/Java11/versions/2`</br>[README.md](docs/Java11/README.md)                       | `custom.debian10`,`custom`| 暂无明确时间 |
-| Java17                       | `acs:fc:{region}:official:layers/Java17/versions/2`</br>[README.md](docs/Java17/README.md)                       | `custom.debian10`,`custom`  | 暂无明确时间 |
-| Java21                       | `acs:fc:{region}:official:layers/Java21/versions/1`</br>[README.md](docs/Java21/README.md)                       | `custom.debian10`| 暂无明确时间 |
-| Nodejs20                     | `acs:fc:{region}:official:layers/Nodejs20/versions/1`</br>[README.md](docs/Nodejs20/README.md)                     | `custom.debian10` | 暂无明确时间 |
+| Java11                       | `acs:fc:{region}:official:layers/Java11/versions/3`</br>[README.md](docs/Java11/README.md)                       | `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`| 暂无明确时间 |
+| Java17                       | `acs:fc:{region}:official:layers/Java17/versions/3`</br>[README.md](docs/Java17/README.md)                       | `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`  | 暂无明确时间 |
+| Java21                       | `acs:fc:{region}:official:layers/Java21/versions/2`</br>[README.md](docs/Java21/README.md)                       | `custom.debian10`</br>`custom.debian11`</br>`custom.debian12`| 暂无明确时间 |
+| Nodejs20                     | `acs:fc:{region}:official:layers/Nodejs20/versions/3`</br>[README.md](docs/Nodejs20/README.md)                     | `custom.debian10`</br>`custom.debian11`</br>`custom.debian12` | 暂无明确时间 |
 | Nodejs18                     | `acs:fc:{region}:official:layers/Nodejs18/versions/3`</br>[README.md](docs/Nodejs18/README.md)                     | `custom.debian10` | 暂无明确时间 |
 | Nodejs17                     | `acs:fc:{region}:official:layers/Nodejs17/versions/2`</br>[README.md](docs/Nodejs17/README.md)                     | `custom` | 暂无明确时间 |
 | Nodejs16                     | `acs:fc:{region}:official:layers/Nodejs16/versions/2`</br>[README.md](docs/Nodejs16/README.md)                     | `custom`</br>`custom.debian10` | 暂无明确时间 |
