@@ -5,7 +5,10 @@
 | `acs:fc:{region}:official:layers/Nodejs-Puppeteer19x/versions/1` | `custom.debian10` | puppeteer-v19.8.5 |
 
 ## 快速开始
+
 可以通过控制台或者 Serverless Devs 工具引用该层。
+
+> 注意：内存规格建议大于 1024 MB。
 
 ### 基于 Custom Runtime (Debian10)
 
