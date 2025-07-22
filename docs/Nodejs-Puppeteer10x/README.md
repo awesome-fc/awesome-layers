@@ -6,7 +6,10 @@
 | `acs:fc:{region}:official:layers/Nodejs-Puppeteer10x/versions/2` | custom-runtime   | puppeteer-v10.2.0 |
 
 ## 快速开始
+
 可以通过控制台或者 Serverless Devs 工具引用该层。
+
+> 注意：内存规格建议大于 1024 MB。
 
 ### 基于 Nodejs Runtime 
 若选择 Nodejs Runtime，添加该层后可直接使用。

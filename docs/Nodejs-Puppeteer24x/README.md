@@ -8,6 +8,8 @@
 
 可以通过控制台或者 Serverless Devs 工具引用该层。
 
+> 注意：内存规格建议大于 1024 MB。
+
 ### 基于 Custom Runtime (Debian12)
 
 添加以下两个环境变量
