@@ -2,7 +2,7 @@
 
 | ARN                                                              | 兼容运行时                    | 版本                |
 |------------------------------------------------------------------|--------------------------|-------------------|
-| `acs:fc:{region}:official:layers/Nodejs-Puppeteer24x/versions/1` | `custom.debian10` | puppeteer-v24.4.0 |
+| `acs:fc:{region}:official:layers/Nodejs-Puppeteer24x/versions/1` | `custom.debian12` | puppeteer-v24.4.0 |
 
 ## 快速开始
 
