@@ -1,9 +1,12 @@
 
 # 【官方公共层】PHP81
 
-| ARN  |  兼容运行时  | 版本 |
-|------|------|--------|
-| `acs:fc:{region}:official:layers/PHP81/versions/6` | custom-runtime   | PHP 8.1.9 |
+> v7 包含 CVE-2026-109618、CVE-2026-109619 的安全补丁，PHP 版本号保持不变。v6 及以前的版本不建议继续使用，请升级到 v7。兼容性变化和升级步骤请参见 [PHP 公共层安全升级指引](../PHP_SECURITY_UPGRADE.md)。
+
+| ARN | 兼容运行时 | PHP 版本 | 详情 |
+| --- | --- | --- | --- |
+| `acs:fc:{region}:official:layers/PHP81/versions/7` | custom-runtime | PHP 8.1.9 | 已修复 CVE-2026-109618、CVE-2026-109619，推荐使用。 |
+| `acs:fc:{region}:official:layers/PHP81/versions/6` | custom-runtime | PHP 8.1.9 | 存在上述安全漏洞，不推荐使用，请升级到 v7。 |
 
 ## 快速开始
 

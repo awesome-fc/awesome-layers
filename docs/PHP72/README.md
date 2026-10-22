@@ -1,6 +1,8 @@
 
 # 【官方公共层】PHP72
 
+> PHP 7.2 已结束上游支持；当前已公布的 PHP72 层（含 v6）不建议新建业务使用。应迁移到已修复的 PHP 运行环境，本次没有 PHP72 修复层。兼容性变化和升级步骤请参见 [PHP 公共层安全升级指引](../PHP_SECURITY_UPGRADE.md)。
+
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
 | `acs:fc:{region}:official:layers/PHP72/versions/6` | custom-runtime   | PHP 7.2.8 |

@@ -22,15 +22,19 @@
 
 ### 运行时及其依赖库
 
+PHP 公共层的终止支持时间为函数计算的维护安排，与 [PHP 官方终止支持时间](https://www.php.net/eol.php)不同；PHP 7.2、8.0 和 8.1 均已结束上游支持。
+
 以下公共层由阿里云函数计算维护。
+
+> PHP 公共层安全升级：请将 PHP81-Debian10 升级到 v2、PHP80-Debian10 升级到 v3、PHP81 升级到 v7、PHP80 升级到 v8。上述公共层的旧版本及所有已发布的 PHP72 版本不建议继续使用，详见 [PHP 公共层安全升级指引](docs/PHP_SECURITY_UPGRADE.md)。
 
 | 层名称    | ARN/说明      | 兼容运行时  |  终止支持时间(EOF) |
 |------------------|-----------------|--------|-----|
 | Python3.12                     | `acs:fc:{region}:official:layers/Python312/versions/1`</br>[README.md](docs/Python312/README.md)                     | `custom.debian12` | 暂无明确时间 |
 | Nodejs22                     | `acs:fc:{region}:official:layers/Nodejs22/versions/3`</br>[README.md](docs/Nodejs22/README.md)                     | `custom.debian12`</br>`custom.debian11` | 暂无明确时间 |
 | Nodejs24                     | `acs:fc:{region}:official:layers/Nodejs24/versions/1`</br>[README.md](docs/Nodejs24/README.md)                     | `custom.debian12`</br>`custom.debian11` | 暂无明确时间 |
-| PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
-| PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 暂无明确时间 |
+| PHP81-Debian10  | `acs:fc:{region}:official:layers/PHP81-Debian10/versions/2`</br>[README.md](docs/PHP81-Debian10/README.md) | `custom.debian10`  | 2026.11 |
+| PHP80-Debian10  | `acs:fc:{region}:official:layers/PHP80-Debian10/versions/3`</br>[README.md](docs/PHP80-Debian10/README.md) | `custom.debian10`  | 2026.11 |
 | Nginx  | `acs:fc:{region}:official:layers/Nginx/versions/1`</br>[README.md](docs/Nginx/README.md) | `custom.debian10`  | 暂无明确时间 |
 | Python310                    | `acs:fc:{region}:official:layers/Python310/versions/3`</br>[README.md](docs/Python310/README.md)     |  `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`  | 暂无明确时间 |
 | Python310-Package-Collection | `acs:fc:{region}:official:layers/Python310-Package-Collection/versions/3`</br>[README.md](docs/Python310-Package-Collection/README.md) | `custom.debian10` | 暂无明确时间|
@@ -41,9 +45,9 @@
 | Python36                     | `acs:fc:{region}:official:layers/Python36/versions/2`</br>[README.md](docs/Python36/README.md)                     | `custom`  | 2024-04 |
 | Python36-Package-Collection  | `acs:fc:{region}:official:layers/Python36-Package-Collection/versions/2`</br>[README.md](docs/Python36-Package-Collection/README.md)  | `custom` | 2024-04 |
 | Dotnet6                      | `acs:fc:{region}:official:layers/Dotnet6/versions/3`</br>README.md](docs/Dotnet6/README.md)                      | `custom.debian10`,`custom`  | 暂无明确时间 |
-| PHP81                        | `acs:fc:{region}:official:layers/PHP81/versions/6`</br>[README.md](docs/PHP81/README.md)                        | `custom`  | 暂无明确时间 |
-| PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/7`</br>[README.md](docs/PHP80/README.md)                        | `custom`  | 暂无明确时间 |
-| PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/6`</br>[README.md](docs/PHP72/README.md)                        | `custom`  | 暂无明确时间 |
+| PHP81                        | `acs:fc:{region}:official:layers/PHP81/versions/7`</br>[README.md](docs/PHP81/README.md)                        | `custom`  | 2026.11 |
+| PHP80                        | `acs:fc:{region}:official:layers/PHP80/versions/8`</br>[README.md](docs/PHP80/README.md)                        | `custom`  | 2026.11 |
+| PHP72                        | `acs:fc:{region}:official:layers/PHP72/versions/6`</br>[README.md](docs/PHP72/README.md)                        | `custom`  | 2026.10 |
 | Java8                       | `acs:fc:{region}:official:layers/Java8/versions/1`</br>[README.md](docs/Java8/README.md)                       | `custom.debian10`| 暂无明确时间 |
 | Java11                       | `acs:fc:{region}:official:layers/Java11/versions/3`</br>[README.md](docs/Java11/README.md)                       | `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`| 暂无明确时间 |
 | Java17                       | `acs:fc:{region}:official:layers/Java17/versions/3`</br>[README.md](docs/Java17/README.md)                       | `custom`</br>`custom.debian10`</br>`custom.debian11`</br>`custom.debian12`  | 暂无明确时间 |
