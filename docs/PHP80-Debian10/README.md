@@ -1,15 +1,18 @@
 
 # 【官方公共层】PHP80-Debian10
 
-| ARN  |  兼容运行时  | 版本 |
-|------|------|--------|
-| `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2` | `custom.debian10`   | PHP 8.0.29 |
+> v3 包含 CVE-2026-109618、CVE-2026-109619 的安全补丁，PHP 版本号保持不变。v2 及以前的版本不建议继续使用，请升级到 v3。兼容性变化和升级步骤请参见 [PHP 公共层安全升级指引](../PHP_SECURITY_UPGRADE.md)。
+
+| ARN | 兼容运行时 | PHP 版本 | 详情 |
+| --- | --- | --- | --- |
+| `acs:fc:{region}:official:layers/PHP80-Debian10/versions/3` | `custom.debian10` | PHP 8.0.29 | 已修复 CVE-2026-109618、CVE-2026-109619，推荐使用。 |
+| `acs:fc:{region}:official:layers/PHP80-Debian10/versions/2` | `custom.debian10` | PHP 8.0.29 | 存在上述安全漏洞，不推荐使用，请升级到 v3。 |
 
 ## 快速开始
 
 可以通过控制台或者 Serverless Devs 工具引用该层。
 
-使用`PHP80`层时，需要配置相应的环境变量 (通过控制台创建会自动配置)。
+使用`PHP80-Debian10`层时，需要配置相应的环境变量 (通过控制台创建会自动配置)。
 
 - `PATH` 环境变量需要添加 `/opt/php8.0/bin` 和 `/opt/php8.0/sbin` 目录，注意需要加到`PATH`的最前面
 - `LD_LIBRARY_PATH` 环境变量需要添加 `/opt/php8.0/lib`目录

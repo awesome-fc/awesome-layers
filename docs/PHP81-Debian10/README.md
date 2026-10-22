@@ -1,9 +1,12 @@
 
 # 【官方公共层】PHP81-Debian10
 
-| ARN  |  兼容运行时  | 版本 |
-|------|------|--------|
-| `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1` | `custom.debian10`   | PHP 8.1.28 |
+> v2 包含 CVE-2026-109618、CVE-2026-109619 的安全补丁，PHP 版本号仍为 8.1.28。v1 不建议继续使用，请升级到 v2。兼容性变化和升级步骤请参见 [PHP 公共层安全升级指引](../PHP_SECURITY_UPGRADE.md)。
+
+| ARN | 兼容运行时 | PHP 版本 | 详情 |
+| --- | --- | --- | --- |
+| `acs:fc:{region}:official:layers/PHP81-Debian10/versions/2` | `custom.debian10` | PHP 8.1.28 | 已修复 CVE-2026-109618、CVE-2026-109619，推荐使用。 |
+| `acs:fc:{region}:official:layers/PHP81-Debian10/versions/1` | `custom.debian10` | PHP 8.1.28 | 存在上述安全漏洞，不推荐使用，请升级到 v2。 |
 
 ## 快速开始
 
