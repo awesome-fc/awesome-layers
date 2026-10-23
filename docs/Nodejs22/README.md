@@ -3,7 +3,7 @@
 
 | ARN  |  兼容运行时  | 版本 |
 |------|------|--------|
-| `acs:fc:{region}:official:layers/Nodejs22/versions/3` | `custom.debian11`,`custom.debian12`   | Node.js 22.23.2  |
+| `acs:fc:{region}:official:layers/Nodejs22/versions/4` | `custom.debian10`,`custom.debian11`,`custom.debian12`   | Node.js 22.23.4  |
 
 ## 快速开始
 
