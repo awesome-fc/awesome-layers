@@ -2,7 +2,7 @@
 
 PHP 8.5.12 / Debian 12（Bookworm），仅适用于 `custom.debian12` 的 x86_64（amd64）函数，安装路径为 `/opt/php8.5`。
 
-| 目标 ARN（待正式发布） | 兼容运行时 | PHP 版本 |
+| ARN | 兼容运行时 | PHP 版本 |
 | --- | --- | --- |
 | `acs:fc:{region}:official:layers/PHP85-Debian12/versions/1` | `custom.debian12` | PHP 8.5.12 |
 
@@ -10,7 +10,7 @@ PHP 8.5.12 / Debian 12（Bookworm），仅适用于 `custom.debian12` 的 x86_64
 
 ## 快速开始
 
-正式发布后，可以通过控制台或 Serverless Devs 为 `custom.debian12` 函数配置该层。函数启动命令设置为 `/bin/bash /code/bootstrap`，监听端口设置为 `9000`。
+可以通过控制台或 Serverless Devs 为 `custom.debian12` 函数配置该层。函数启动命令设置为 `/bin/bash /code/bootstrap`，监听端口设置为 `9000`。
 
 在函数代码中创建 `bootstrap`，设置环境变量并启动应用：
 
